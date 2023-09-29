@@ -29,3 +29,4 @@ Privacy information can be found at https://privacy.microsoft.com/en-us/
 
 Microsoft and any contributors reserve all others rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
+[![Build Status](https://cloudingjoseluis.visualstudio.com/pipelines-dotnet-core/_apis/build/status%2Fjjlloobb.pipelines-java?branchName=main)](https://cloudingjoseluis.visualstudio.com/pipelines-dotnet-core/_build/latest?definitionId=29&branchName=main)
