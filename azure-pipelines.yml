@@ -23,11 +23,14 @@ strategy:
   matrix:
     jdk10_linux:
       imageName: 'ubuntu-latest'
-      jdkVersion: "1.10"
+      jdkVersion: "11"
     jdk11_windows:
       imageName: 'windows-latest'
-      jdkVersion: '1.11'
-  maxParallel: 2
+      jdkVersion: '16'
+    jdk11_macos:
+      imageName: 'macos-latest'
+      jdkVersion: '17'
+  maxParallel: 3
 
 pool:
   vmImage: $(imageName)
