@@ -26,10 +26,10 @@ strategy:
       jdkVersion: "11"
     jdk11_windows:
       imageName: 'windows-latest'
-      jdkVersion: '16'
+      jdkVersion: '12'
     jdk11_macos:
       imageName: 'macos-latest'
-      jdkVersion: '17'
+      jdkVersion: '13'
   maxParallel: 3
 
 pool:
