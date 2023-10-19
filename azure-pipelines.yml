@@ -62,10 +62,3 @@ steps:
     summaryFileLocation: "$(System.DefaultWorkingDirectory)/**/site/jacoco/jacoco.xml"
     reportDirectory: "$(System.DefaultWorkingDirectory)/**/site/jacoco"
     failIfCoverageEmpty: true
-
-- task: Docker@2
-  inputs:
-    containerRegistry: 'Docker Hub Owner'
-    repository: 'test'
-    command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
